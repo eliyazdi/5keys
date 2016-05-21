@@ -15,3 +15,6 @@ process.stdin.on('keypress', function(ch, key){
 });
 
 process.stdin.setRawMode(true);
+
+// JAVASCRIPT REALLY ISN'T FIT TO DO THIS
+// I'M DOING THIS IN PYTHON
