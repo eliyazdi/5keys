@@ -1,8 +1,14 @@
 from getch import getch
+import sys
 
 variable = ""
+keys = []
 
-keys = [52, 114, 102, 99, 32]
+if sys.argv[1] == "machine":
+    keys = [52, 114, 102, 99, 32]
+else:
+    keys = [106, 107, 108, 59, 32]
+    
 one = str(keys[0])
 two = str(keys[1])
 three = str(keys[2])
@@ -50,10 +56,16 @@ maps[five][five][three] = "z"
 maps[five][five][four] = " "
 
 
+thestring = ""
+
 
 while True:
     key = ord(getch())
-    if str(key) in keys:
-        key1 = ord(getch())
-        if str(key1) in keys:
-            print(maps[str(key)][str(key1)])
+    key1 = ord(getch())
+    if (str(key) == five) and (str(key1) == five):
+        key2 = ord(getch())
+        thestring+=(maps[str(key)][str(key1)][str(key2)])
+        print(thestring)
+    else:
+        thestring+=(maps[str(key)][str(key1)])
+        print(thestring)
