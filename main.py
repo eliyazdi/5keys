@@ -113,8 +113,8 @@ while True:
     key1 = ord(getch())
     if (str(key1) == five) or (str(key1) == four):
         key2 = ord(getch())
-        thestring+=(maps[str(key)][str(key1)][str(key2)])
-        print(thestring)
+        thestring = (maps[str(key)][str(key1)][str(key2)])
+        sys.stdout.write(thestring)
     else:
-        thestring+=(maps[str(key)][str(key1)])
-        print(thestring)
+        thestring = (maps[str(key)][str(key1)])
+        sys.stdout.write(thestring)
