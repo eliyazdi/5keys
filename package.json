@@ -1,0 +1,25 @@
+{
+  "name": "5keys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliyazdi/5keys.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliyazdi/5keys/issues"
+  },
+  "homepage": "https://github.com/eliyazdi/5keys",
+  "dependencies": {
+    "google-speech": "0.0.5",
+    "gspeech-api": "^1.0.0",
+    "record-audio": "^1.0.0",
+    "speakable": "^0.3.0"
+  }
+}

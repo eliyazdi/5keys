@@ -6,9 +6,11 @@ keys = []
 
 if sys.argv[1] == "machine":
     keys = [52, 114, 102, 99, 32]
+elif sys.argv[1] == "human":
+    keys = [106, 107, 108, 59, 32]
 else:
     keys = [106, 107, 108, 59, 32]
-    
+
 one = str(keys[0])
 two = str(keys[1])
 three = str(keys[2])
@@ -26,7 +28,7 @@ maps[one][five] = "e"
 
 maps[two] = {}
 maps[two][one] = "f"
-maps[two][three] = "g"
+maps[two][two] = "g"
 maps[two][three] = "h"
 maps[two][four] = "i"
 maps[two][five] = "j"
