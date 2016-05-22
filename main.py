@@ -102,6 +102,7 @@ maps[five][five][one] = "x"
 maps[five][five][two] = "y"
 maps[five][five][three] = "z"
 maps[five][five][four] = " "
+maps[five][five][five] = "?"
 
 
 thestring = ""
