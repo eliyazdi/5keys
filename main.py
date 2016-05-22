@@ -69,7 +69,7 @@ thestring = ""
 while True:
     key = ord(getch())
     key1 = ord(getch())
-    if (str(key) == five) and (str(key1) == five):
+    if ((str(key) == five) and (str(key1) == five)) or ((str(key) == four) and str(key1) == four)):
         key2 = ord(getch())
         thestring+=(maps[str(key)][str(key1)][str(key2)])
         print(thestring)
