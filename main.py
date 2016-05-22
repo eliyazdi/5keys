@@ -44,7 +44,12 @@ maps[four] = {}
 maps[four][one] = "p"
 maps[four][two] = "q"
 maps[four][three] = "r"
-maps[four][five] = "s"
+maps[four][five] = {}
+maps[four][five][one] = "s"
+maps[four][five][two] = "."
+maps[four][five][three] = ","
+maps[four][five][four] = "/"
+maps[four][five][five] = ";"
 
 maps[five] = {}
 maps[five][one] = "t"
